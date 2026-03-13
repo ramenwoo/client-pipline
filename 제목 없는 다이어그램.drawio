@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="페이지-1" id="LwpZgG0bvpa6oLTP4lHF">
+    <mxGraphModel dx="2037" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="390" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value=".NET Application&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(C#)&lt;/span&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- UI (WinForm DataBinding: ISupportTableView) / ASP.NET / Console&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Custom Implementations :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IDestinationConfiguration, IServerConfiguration,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ISessionProvider, IServerSecurityHandler, ITransactionIDHandler&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="130" width="440" x="200" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.56;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.583;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="389.99999999999994" as="sourcePoint" />
+            <mxPoint x="450.52" y="236.26000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+          <mxGeometry height="640" width="600" x="120" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SAP .NET Connector 3.1 (NCo 3.1)" vertex="1">
+          <mxGeometry height="40" width="150" x="345" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="자체 Wrapper Class (Data Binding)&lt;div&gt;IN_Param (HashTable) : 전달 파라미터&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="120" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-8" edge="1" parent="1" source="dhJKQ50wcbI7rZwAGgqf-7" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="364" y="360" as="sourcePoint" />
+            <mxPoint x="390" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="344.5" as="sourcePoint" />
+            <mxPoint x="390" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="내부에서 NCo API 호출(API Call)" vertex="1">
+          <mxGeometry height="30" width="180" x="170" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-14" edge="1" parent="1" source="dhJKQ50wcbI7rZwAGgqf-15" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="649.5" y="354.5" as="sourcePoint" />
+            <mxPoint x="450" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="내부에서 NCo API 호출(API Call)" vertex="1">
+          <mxGeometry height="30" width="189.5" x="490" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="자체 Wrapper Class (Data Binding)&lt;div&gt;OUT_Param (HashTable) : 결과 파라미터&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="490" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1030" as="sourcePoint" />
+            <mxPoint x="390" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.56;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="1182" as="sourcePoint" />
+            <mxPoint x="450" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Layer 1&lt;div&gt;Management &amp;amp; Configuration Layer(관리 및 설정 계층)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- RfcDestinationManager : 클라이언트 연결 정보(IDestination Configuration) 및 연결 풀링 관리&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- RfcServerManager : 서버 리스너(IServerConfiguration) 및 워커 스레드 관리&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- RfcSessionManager : Stateful 통신 시 .NET 스레드와 SAP 세션을 매핑(ISessionProvider 활용)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="516" x="162" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Layer 2&lt;div&gt;Metadata &amp;amp; Repository Layer(메타데이터 및 저장소 계층)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- RfcRepository (SAP DDIC 캐싱) - 동적 할당&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- RfcCustomRepository (하드코딩 구조) - 정적 할당&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Metadata Classes : RfcFunctionMetadata, RfcStructureMetadata, RfcTableMetadata, RfcFieldMetadata&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85.5" width="580" x="130" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Layer 3&lt;div&gt;Data Container Layer(데이터 컨테이너 계층)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- IRfcFunction, IRfcStructure, IRfcTable 형태로 제공 / 메모리 최적화를 위해 데이터가 실제로 입력될 때 동적 할당&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- .NET UI Binding : IRfcTable에서 ISupportTableView 지원&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;(Windows Forms의 DataGridView와 테이블 데이터 매핑)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="580" x="130" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="dhJKQ50wcbI7rZwAGgqf-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Layer 4&lt;div&gt;Transaction &amp;amp; Execution Layer(트랜잭션 및 실행 계층)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- [Client] RfcTransaction (tRFC/qRFC), RfcBackgroundUnit (bgRFC) Wrapper를 통한 Invoke&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="580" x="130" y="800" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
